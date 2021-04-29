@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformations>
+  <transformator id="agile-transformations" data_type_in="agile-datatype">
+
+    <transformation output_field="PKTSEQCN_samples" type="forward" input_field="PKTSEQCN_samples" mode="stateless" input_data_shape="array1d" />
+
+    <transformation output_field="PKTSEQCN_distribution" type="distribution" bins="10" min="0" max="100" input_field="PKTSEQCN_samples" mode="stateless" input_data_shape="array1d" />
+
+  </transformator>
+</transformations>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dqpipelines>
+  <dqpipeline id="agile-pipeline-1" data_type_in="agile-datatype" data_type_out="agile-datatype-out">
+    <activity type="aggregation" id="agile-aggregations" />
+    <activity type="transformation" id="agile-transformations" />
+  </dqpipeline>
+</dqpipelines>

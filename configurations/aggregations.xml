@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregations>
+    <aggregator id="agile-aggregations" data_type_in="agile-datatype" >
+
+        <!-- Array of values of each camera pixel -->
+        <aggregation input_field="PKTSEQCN" type="get_samples" output_field="PKTSEQCN_samples" mode="stateless" max_array_size="100000"/>
+
+    </aggregator>
+</aggregations>
