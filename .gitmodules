@@ -1,6 +1,3 @@
 [submodule "xmlgen"]
 	path = xmlgen
 	url = https://github.com/antonioaddis/xmlgen.git
-[submodule "rta-dq"]
-	path = rta-dq
-	url = https://github.com/ASTRO-EDU/rta-dq.git
